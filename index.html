@@ -31,7 +31,7 @@ Most Recent Version: up to date
         <center>
               <!-- a message for visitors to enable javascript if disabled-->
               <noscript>
-                        <div>Hello, Your browser is blocking the javascript. You should enable it for the best view of the site.</div>
+                    <div>Hello, Your browser is blocking the javascript. You should enable it for the best view of the site.</div>
               </noscript>
         </center>
 
@@ -190,14 +190,133 @@ Most Recent Version: up to date
                         </div>
                     </div> <!-- end of the menu content -->
 
+                    <!-- adding the contact us form page -->
+                    <div class="tab-pane fade " id="nav-contact" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        aria-expanded="false">
+                        <div class="container-fulid ">
+                            <form action="" method="" id="contact_form" onsubmit="return check();">
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        <strong>Name:</strong>
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                </div>
 
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        <strong>Email:</strong>
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        <strong>Phone:</strong>
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <input type="text" class="form-control" id="phone" required>
+                                    </div>
+                                </div>
+
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        <strong> Reason for Inquiry:</strong>
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <select class="form-control" id="sel1" name="sellist1">
+                                            <option>Catering</option>
+                                            <option>Private Party</option>
+                                            <option>Feedback</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        <strong>Additional Information:</strong>
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <textarea class="form-control" rows="5" id="info" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        Have you been to the restaurant?:
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="radio" class="form-check-input" name="optradio" value="no"
+                                                    checked>No
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="radio" class="form-check-input" name="optradio" value="yes">Yes
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                        Best days to contact you:
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input checkboxClass" value="M">M
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input checkboxClass" value="T">T
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input checkboxClass" value="W">W
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input checkboxClass" value="Th">Th
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input checkboxClass" value="F">F
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row form_line">
+                                    <div class="col-4 form_label">
+                                    </div>
+                                    <div class="col-5 form_input">
+                                        <button type="submit" class="btn btn-success">Send Request</button>
+                                    </div>
+                                </div>
+                            </form> <!-- end of form -->
+                        </div>
+                    </div> <!-- end of contactus form -->
+
+                </div> <!-- end of the tabs content -->
+            </div> <!-- end of tabs nav system -->
+        </div><!-- end of the main content -->
 
         <footer>
             <p>1234 Hennepin Ave S, Minneapolis, MN 55455</p>
             <p> Telephone Number: (952)594-0019
             </p>
         </footer>
-
     </body>
-
-    </html>
+</html>

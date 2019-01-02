@@ -1,0 +1,118 @@
+header, footer {
+  background-color: #c3b091;
+        }
+body{
+  font-family: 'Comic Sans MS';
+  text-align: center;
+}
+
+.menu_bar{
+  background-color: #c3b091;
+}
+
+footer{
+  padding: 5px;
+}
+
+.tab-pane{
+  padding-bottom: 20px;
+}
+
+.nav-item.active{
+  background-color: #c3b091 !important;
+  border: none !important;
+}
+
+#nav-home{
+  background-color: #b97b1f;
+}
+
+.jumbotron{
+  margin-bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.clear-float {
+    clear:both;
+}
+nav a {
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    margin: 10px 10px;
+
+    float:left;
+}
+
+noscript {
+  position: fixed;
+  color: red;
+}
+
+.carousel-caption {
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:black;
+  position: relative !important;
+  text-align: center;
+}
+
+.form-group p{
+  padding: 0;
+  margin: 0;
+}
+
+.menu_text{
+  padding: 10px;
+}
+
+a {
+  text-decoration: none !important;
+  font-weight: none !important;
+}
+a:link {
+  text-decoration: none;
+
+}
+a:visited{
+  color: rgb(25, 0, 255) !important;
+}
+
+.form_line{
+  margin: 10px 0 10px 0;
+}
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+}
+table {
+  background-color:#b97b1f;
+  border-collapse: collapse;
+  font-weight: bold;
+  width: 50%;
+  height: 60%;
+  text-align: left;
+}
+tbody tr:nth-child(even) {
+  background-color: gold;
+}
+thead th{
+  color: maroon;
+  padding: 15px;
+}
+
+.form_label{
+  text-align: right;
+}
+
+.form_input{
+  text-align: left;
+}
