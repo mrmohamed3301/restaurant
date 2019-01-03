@@ -1,6 +1,7 @@
-header, footer {
+header, footer{
   background-color: #c3b091;
-        }
+  padding: 5px
+}
 body{
   font-family: 'Comic Sans MS';
   text-align: center;
@@ -8,10 +9,6 @@ body{
 
 .menu_bar{
   background-color: #c3b091;
-}
-
-footer{
-  padding: 5px;
 }
 
 .tab-pane{
@@ -27,7 +24,12 @@ footer{
   background-color: #b97b1f;
 }
 
+#nav-menu{
+  background-color: #d1b839;
+}
+
 .jumbotron{
+  background-color: #eaCa2a;
   margin-bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
@@ -46,7 +48,7 @@ nav a {
 
 noscript {
   position: fixed;
-  color: red;
+  color: #ff0000;
 }
 
 .carousel-caption {
